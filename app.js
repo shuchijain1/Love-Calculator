@@ -10,8 +10,8 @@ app.get("/",function(req,res){
 
 })
 app.post("/",function(req,res){
-  const fn=req.body.fn
-  const ln=req.body.ln
+  const fname=req.body.fn
+  const lname=req.body.ln
   const email=req.body.email
   const data={
     members:[
@@ -19,8 +19,8 @@ app.post("/",function(req,res){
         email_address:email,
         status:"subscribed",
         merge_field:{
-          FNAME:fn,
-          LNAME:ln
+          FNAME:fname,
+          LNAME:lname
         }
       }
     ]
