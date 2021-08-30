@@ -7,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.87.0">
-    <title>Testing SignUp </title>
-
+    <!-- <title>Testing SignUp </title> -->
+    <title>Love Calculator </title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
 
 
@@ -49,22 +49,24 @@
 
 <main class="form-signin">
   <form action="/" method="post">
-    <img class="mb-4" src="image/logo.png" alt="" width="72" height="57">
-    <h1 class="h3 mb-3 fw-normal">Let's Test</h1>
+    <img class="mb-4" src="image/heart.webp" alt="" width="72" height="57">
+    <!-- <h1 class="h3 mb-3 fw-normal">Let's Test</h1> -->
+       <h1 class="h3 mb-3 fw-normal">Love Calculator</h1>
+
+
+      <input type="text" class="form-control top" name="fn" placeholder="Your Name" required autofocus>
+      <input type="text" class="form-control" name="ln" placeholder="Crush Name" required>
+<br /><p>
+  Will tell you the result on E-Mail.
+</p>
+       <input type="email" class="form-control bottom" name="email" placeholder="Email" required>
 
 
 
-      <input type="text" class="form-control top" name="fn" placeholder="First Name" required autofocus>
-      <input type="text" class="form-control" name="ln" placeholder="Last Name" required>
-
-      <input type="email" class="form-control bottom" name="email" placeholder="Email" required>
 
 
-
-
-
-    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
-    <p class="mt-5 mb-3 text-muted">&copy; Shuchi</p>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Calculate</button>
+    <p class="mt-5 mb-3 text-muted">&copy; 2021</p>
   </form>
 </main>
 
